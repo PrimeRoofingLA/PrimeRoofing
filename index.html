@@ -4,12 +4,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prime Roofing | Professional Roof Services in Southern California</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Prime Roofing | Your Local Roof Experts</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; background-color: #f9f9f9; }
+    header { background-color: #1f2937; color: #fff; padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    header img { height: 50px; }
+    nav a { color: #fff; margin-left: 1rem; text-decoration: none; font-weight: bold; }
+    .hero { background: #e2e8f0; text-align: center; padding: 4rem 2rem; }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; margin-bottom: 2rem; }
+    .hero a { background: #1f2937; color: #fff; padding: 0.8rem 1.5rem; border-radius: 5px; text-decoration: none; font-weight: bold; }
+    section { padding: 3rem 2rem; max-width: 1000px; margin: auto; }
+    .section-title { font-size: 1.8rem; margin-bottom: 1rem; }
+    .services ul, .why ul { list-style-type: none; padding: 0; }
+    .services li, .why li { margin-bottom: 0.5rem; }
+    .testimonial { background-color: #fff; border-left: 4px solid #1f2937; padding: 1rem; margin-bottom: 1rem; font-style: italic; }
+    .contact-form { display: flex; flex-direction: column; max-width: 400px; margin-top: 1rem; }
+    .contact-form input, .contact-form textarea { margin-bottom: 1rem; padding: 0.7rem; border: 1px solid #ccc; border-radius: 5px; }
+    .contact-form button { padding: 0.7rem; background: #1f2937; color: #fff; border: none; border-radius: 5px; font-weight: bold; }
+    footer { background: #1f2937; color: #fff; text-align: center; padding: 1rem; margin-top: 2rem; }
+  </style>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Prime Roofing Logo" class="logo" />
+    <img src="logo.png" alt="Prime Roofing Logo" />
     <nav>
       <a href="#services">Services</a>
       <a href="#why">Why Us</a>
@@ -19,51 +37,53 @@
   </header>
 
   <section class="hero">
-    <h1>Top-Rated Roofing Services in SoCal</h1>
-    <p>Affordable pricing. 25-Year Shingle Warranty. Fast Turnaround.</p>
-    <a href="#contact" class="cta-button">Get Your Free Quote</a>
+    <h1>Reliable, Affordable Roofing</h1>
+    <p>Serving Sylmar & the San Fernando Valley with 25-year shingle warranties and unbeatable service.</p>
+    <a href="#contact">Get a Free Quote</a>
   </section>
 
-  <section id="services">
-    <h2>Our Services</h2>
+  <section id="services" class="services">
+    <h2 class="section-title">Our Services</h2>
     <ul>
-      <li>Roof Replacements</li>
-      <li>Shingle Tear-Offs</li>
-      <li>Solar Panel Removal & Reset</li>
-      <li>Soffit & Plywood Repairs</li>
-      <li>Free Roof Inspections</li>
+      <li>Full Roof Replacement</li>
+      <li>Shingle Tear-Off & Installation</li>
+      <li>Soffit & Plywood Repair</li>
+      <li>Solar Panel Removal & Reinstallation</li>
+      <li>Free Inspections</li>
     </ul>
   </section>
 
-  <section id="why">
-    <h2>Why Choose Prime Roofing?</h2>
+  <section id="why" class="why">
+    <h2 class="section-title">Why Choose Prime Roofing?</h2>
     <ul>
-      <li>Licensed & Insured</li>
-      <li>8–10 Roofs Completed Weekly</li>
-      <li>Locally Owned & Operated</li>
       <li>25-Year Warranty Shingles</li>
+      <li>Affordable, Transparent Pricing</li>
+      <li>Licensed & Insured Local Crew</li>
+      <li>8–10 Roofs Installed Weekly</li>
     </ul>
   </section>
 
   <section id="testimonials">
-    <h2>What Our Customers Say</h2>
-    <blockquote>"Prime Roofing was on-time, clean, and the price was unbeatable." — M. Garcia</blockquote>
-    <blockquote>"Our roof looks amazing and they took care of our solar panels too!" — T. Nguyen</blockquote>
+    <h2 class="section-title">What Our Clients Are Saying</h2>
+    <div class="testimonial">“They showed up on time, cleaned up every day, and got the roof done in three days flat. Couldn’t be happier!” — Samantha L., Sylmar</div>
+    <div class="testimonial">“We saved over $3,000 compared to other quotes. Prime Roofing was fast, professional, and honest.” — Diego R., San Fernando</div>
+    <div class="testimonial">“I was nervous about the solar panels but they handled the removal and reinstall flawlessly. 10/10.” — Natalie P., Mission Hills</div>
   </section>
 
   <section id="contact">
-    <h2>Request a Free Inspection</h2>
-    <form>
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="Email" required>
-      <input type="tel" placeholder="Phone" required>
-      <textarea placeholder="Tell us about your project..."></textarea>
+    <h2 class="section-title">Contact Us</h2>
+    <p>We’ll get back to you within 24 hours.</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <textarea rows="4" placeholder="How can we help you?"></textarea>
       <button type="submit">Submit</button>
     </form>
   </section>
 
   <footer>
-    <p>© 2025 Prime Roofing. All rights reserved.</p>
+    <p>© 2025 Prime Roofing | All Rights Reserved</p>
   </footer>
 </body>
 </html>
